@@ -23,7 +23,7 @@ This is the source code for my personal portfolio website. It showcases my proje
 - **Netlify Forms**: For handling contact form submissions.
 
 ## Project Structure
-
+```
 ├── index.html              # Main HTML file
 ├── style.css               # Main CSS file for styling
 ├── script.js               # JavaScript file for interactivity
@@ -34,7 +34,7 @@ This is the source code for my personal portfolio website. It showcases my proje
 └── assets/
     ├── images/             # Directory for images
     └── icons/              # Directory for social media and other icons
-
+```
 ## Installation
 
 To run this project locally:
