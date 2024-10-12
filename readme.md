@@ -1,6 +1,4 @@
-# Here's the `README.md` for your portfolio site:
-
-# Girdhari Thakur - Personal Portfolio Website
+# My Personal Portfolio Website
 
 This is the source code for my personal portfolio website. It showcases my projects, skills, and ways to contact me. The site is built using **HTML**, **CSS**, and **JavaScript**, and includes external libraries for particle effects and form handling.
 
