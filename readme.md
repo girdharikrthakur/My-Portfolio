@@ -62,4 +62,3 @@ To run this project locally:
 
 This project is licensed under the [MIT License](LICENSE)
 
-This `README.md` provides a clear overview of your portfolio site. Adjust the folder structure or any sections if necessary.
