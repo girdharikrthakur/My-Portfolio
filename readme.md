@@ -47,9 +47,9 @@ To run this project locally:
    git clone https://github.com/girdharikrthakur/portfolio.git
    ```
 2. Navigate to the project directory:
-```bash
-cd portfolio
-```
+    ```bash
+    cd portfolio
+    ```
 4. Open the `index.html` file in a browser to view the site:
 
    ```bash
