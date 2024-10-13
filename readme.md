@@ -32,9 +32,6 @@ This is the source code for my personal portfolio website. It showcases my proje
 │   ├── icons/              # Directory for favicon and social media icons
 │   ├── logo/               # Directory for profile pictures
 │   └── pages/              # Additional pages (About, Projects, Contact)
-└── assets/
-    ├── images/             # Directory for images
-    └── icons/              # Directory for social media and other icons
 ```
 
 ## Installation
@@ -47,15 +44,22 @@ To run this project locally:
    git clone https://github.com/girdharikrthakur/portfolio.git
    ```
 2. Navigate to the project directory:
+   <<<<<<< HEAD
 
    ```bash
    cd portfolio
    ```
 3. Open the `index.html` file in a browser to view the site:
+   =======
 
    ```bash
-   open index.html
+   cd portfolio
    ```
+4. Open the `index.html` file in a browser to view the site:
+
+```bash
+   open index.html
+```
 
 ## Usage
 

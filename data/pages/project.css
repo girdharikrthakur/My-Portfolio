@@ -1,0 +1,197 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+
+body {
+ background: linear-gradient(to right, rgba(255, 255, 255, 0.374), rgb(32, 190, 234));
+}
+
+/* nav styles */
+
+.navbar {
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.858), rgb(0, 0, 0));
+ display: flex;
+ z-index: 1000;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #333;
+ color: aliceblue;
+ top: 0;
+ left: 0;
+ position: fixed;
+ width: 100%;
+ min-height: 65px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ box-shadow: 0, 2, 5, rgb(255, 255, 255);
+ font-weight: 400;
+}
+
+.brand_title {
+ font-size: 1.5rem;
+ margin: .5rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 800;
+
+}
+
+.brand_title a {
+ margin-left: 20px;
+ color: #fff;
+ text-decoration: none;
+}
+
+.brand_title img {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+
+}
+
+.navbar_links ul {
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+}
+
+.navbar_links li {
+ list-style: none;
+}
+
+.navbar_links li a {
+ text-decoration: none;
+ color: white;
+ padding: 1rem;
+ display: block;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar_links li a:hover {
+ background-color: rgb(65, 65, 65);
+}
+
+.toggle_button {
+ position: absolute;
+ top: .75rem;
+ right: 1rem;
+ display: none;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 30px;
+ height: 21px;
+}
+
+.toggle_button .bar {
+ height: 3px;
+ width: 100%;
+ background-color: aliceblue;
+ border-radius: 10px;
+}
+
+@media(max-width:700px) {
+ .toggle_button {
+  display: flex;
+ }
+
+ .navbar_links {
+  display: none;
+  width: 100%;
+
+ }
+
+ .navbar {
+  flex-direction: column;
+  align-items: flex-start;
+
+ }
+
+ .navbar_links ul {
+  width: 100%;
+  flex-direction: column;
+
+ }
+
+ .navbar_links li {
+  text-align: center;
+ }
+
+ .navbar_links li a {
+  padding: .5rem 1rem;
+ }
+
+ .navbar_links.active {
+  display: flex;
+  transition: 5s;
+ }
+}
+
+.IDN_Defence {
+ background-color: #ff0000;
+
+}
+
+/* Project Page Styling */
+
+.main {
+ height: 100vh;
+ padding: 20px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+
+.main_container {
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 20px;
+
+}
+
+.card {
+ width: 500px;
+ min-height: 300px;
+ background-color: #f7f7f7;
+ border-radius: 10px;
+ box-shadow: 0px 0 5px rgba(0, 0, 0, 0.322);
+ text-align: center;
+ padding: 20px;
+ background-color: #f7f7f7;
+}
+
+.card>h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700px;
+ color: #333;
+ margin-top: 30px;
+}
+
+.card>p {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: black;
+ margin-top: 50px;
+}
+
+.card>img {
+ width: 100%;
+ padding: 20px;
+}
+
+.card>a {
+ text-decoration: none;
+ color: blue;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 600;
+}
+
+.card>a:hover {
+ color: green;
+}
+
+.card>a:visited {
+ color: grey;
+}
