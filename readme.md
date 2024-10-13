@@ -32,9 +32,6 @@ This is the source code for my personal portfolio website. It showcases my proje
 │   ├── icons/              # Directory for favicon and social media icons
 │   ├── logo/               # Directory for profile pictures
 │   └── pages/              # Additional pages (About, Projects, Contact)
-└── assets/
-    ├── images/             # Directory for images
-    └── icons/              # Directory for social media and other icons
 ```
 
 ## Installation
