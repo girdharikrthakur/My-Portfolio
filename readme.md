@@ -1,5 +1,6 @@
 # My Personal Portfolio Website
 
+
 This is the source code for my personal portfolio website. It showcases my projects, skills, and ways to contact me. The site is built using **HTML**, **CSS**, and **JavaScript**, and includes external libraries for particle effects and form handling.
 
 ## Features
@@ -44,13 +45,6 @@ To run this project locally:
    git clone https://github.com/girdharikrthakur/portfolio.git
    ```
 2. Navigate to the project directory:
-   <<<<<<< HEAD
-
-   ```bash
-   cd portfolio
-   ```
-3. Open the `index.html` file in a browser to view the site:
-   =======
 
    ```bash
    cd portfolio
