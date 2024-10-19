@@ -56,6 +56,16 @@ To run this project locally:
    open index.html
 ```
 
+## Preview
+
+![1729341542697](image/readme/1729341542697.png)
+
+![1729341605692](image/readme/1729341605692.png)
+
+![1729341616825](image/readme/1729341616825.png)
+
+![1729341590262](image/readme/1729341590262.png)
+
 ## Usage
 
 - The site contains sections for "About Me," skills, projects, and a contact form.
