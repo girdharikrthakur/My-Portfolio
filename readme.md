@@ -1,5 +1,6 @@
 # My Personal Portfolio Website
 
+Live Site Link : [girdharithakur.in](https://girdharithakur.in "visit")
 
 This is the source code for my personal portfolio website. It showcases my projects, skills, and ways to contact me. The site is built using **HTML**, **CSS**, and **JavaScript**, and includes external libraries for particle effects and form handling.
 
@@ -49,7 +50,7 @@ To run this project locally:
    ```bash
    cd portfolio
    ```
-4. Open the `index.html` file in a browser to view the site:
+3. Open the `index.html` file in a browser to view the site:
 
 ```bash
    open index.html
